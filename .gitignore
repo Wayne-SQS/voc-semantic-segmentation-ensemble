@@ -1,0 +1,28 @@
+# ===== 数据集（公开数据集，自行下载，不纳入仓库）=====
+data/
+
+# ===== 训练过程产物 =====
+runs/
+*.log
+
+# ===== 开发过程文件 =====
+.workbuddy/
+outputs/
+.screenshots/
+
+# ===== Python 缓存 =====
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# ===== 模型权重（按需保留小体积预训练权重，大权重请自行下载）=====
+*.pth
+*.ckpt
+*.safetensors
+
+# ===== 系统 / 临时文件 =====
+.DS_Store
+Thumbs.db
+~$*
+*.tmp
